@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       NProgress.done();
     });
   }, []);
+
   return (
     <>
       <Head>
