@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from '../Utils/Banner';
 
 type Props = {
-  data: List<>;
+  data: [];
   template: string;
 };
 

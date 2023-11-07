@@ -1,7 +1,6 @@
-import { List } from 'immutable';
 import Image from './ImageType';
 
-const bannerData1: List<Image> = [
+const bannerData1 = [
   {
     src: '/shutterstock_1082072867-2-768x512 1.png',
     width: 580,
@@ -14,7 +13,7 @@ const bannerData1: List<Image> = [
   },
 ];
 
-const bannerData2: List<Image> = [
+const bannerData2 = [
   {
     src: '/Ad2.png',
     width: 1160,

@@ -2,8 +2,8 @@ import React from 'react';
 
 type Props = {
   height: string;
-  components: List<Component>;
-  identifiers: List<Component>;
+  components: [];
+  identifiers: [];
 };
 
 function BrandingSection({ height, components, identifiers }: Props) {

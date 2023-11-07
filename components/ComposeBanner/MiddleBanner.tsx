@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from '../Utils/Banner';
 import Images from './ImageType';
 
-type Props = { images: List<Images> };
+type Props = { images: [] };
 
 function MiddleBanner({ images }: Props) {
   return (

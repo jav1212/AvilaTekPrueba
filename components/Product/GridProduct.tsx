@@ -1,8 +1,7 @@
 import React from 'react';
 import Item from './Item';
-import { Product } from './ProductType';
 
-type Props = { template: string; height: string; gridItems: List<Product> };
+type Props = { template: string; height: string; gridItems: [] };
 
 function GridProduct({ template, height, gridItems }: Props) {
   return (

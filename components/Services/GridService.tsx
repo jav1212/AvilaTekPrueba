@@ -2,7 +2,7 @@ import React from 'react';
 import Item from './Item';
 import { Service } from './ServiceType';
 
-type Props = { template: string; height: string; gridItems: List<Service> };
+type Props = { template: string; height: string; gridItems: [] };
 
 function GridService({ template, height, gridItems }: Props) {
   return (

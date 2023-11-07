@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 type Props = {
   height: string;
-  components: List<Component>;
-  identifiers: List<Component>;
+  components: [];
+  identifiers: [];
 };
 
 function ProductSection({ height, components, identifiers }: Props) {

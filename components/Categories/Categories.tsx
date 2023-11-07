@@ -4,7 +4,7 @@ import Subtitle from '../Utils/Subtitle';
 import Title from '../Utils/Title';
 
 function Categories() {
-  const categories: List<string> = [
+  const categories = [
     'Perro',
     'Gato',
     'Peces',

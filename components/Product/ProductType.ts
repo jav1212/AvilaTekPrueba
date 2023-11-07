@@ -1,6 +1,6 @@
 export type Product = {
   name: string;
-  rating: List<string>;
+  rating: [];
   price: number;
   imageSrc: string;
 };
@@ -8,5 +8,5 @@ export type Product = {
 export type ProductSection = {
   subtitle: string;
   title: string;
-  products: List<Product>;
+  products: [];
 };
