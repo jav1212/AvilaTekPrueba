@@ -48,13 +48,12 @@ function Carousel() {
             aria-label="a"
             id={element.id.toString()}
             className={` m-3 ${
-              index == carouselData.indexOf(element)
+              index === carouselData.indexOf(element)
                 ? 'bg-primary-300'
                 : ' bg-secondary-100'
             }  rounded-md`}
             style={{ width: '50px', height: '6px' }}
             type="button"
-            key={item}
             onClick={handleOnClick}
           />
         ))}

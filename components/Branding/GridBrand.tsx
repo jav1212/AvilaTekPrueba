@@ -1,7 +1,8 @@
 import React from 'react';
 import Banner from '../Utils/Banner';
+import { Branding } from './BrandingType';
 
-type Props = { template: string; height: string; gridItems: [] };
+type Props = { template: string; height: string; gridItems: Branding[] };
 
 function GridBrand({ template, height, gridItems }: Props) {
   return (

@@ -5,5 +5,5 @@ export type Branding = {
 export type brandingSection = {
   title: string;
   subtitle: string;
-  brands: [];
+  brands: Branding[];
 };

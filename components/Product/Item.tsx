@@ -6,7 +6,7 @@ import { MONTSERRAT, WORK_SANS } from '../Utils/fonts';
 type Props = {
   name: string;
   price: number;
-  rating: [];
+  rating: string[];
   imagenSrc: string;
 };
 

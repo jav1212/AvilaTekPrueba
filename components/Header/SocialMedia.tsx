@@ -1,8 +1,9 @@
 import React from 'react';
 import Banner from '../Utils/Banner';
+import { Icons } from './IconsType';
 
 type Props = {
-  data: [];
+  data: Icons[];
   template: string;
 };
 

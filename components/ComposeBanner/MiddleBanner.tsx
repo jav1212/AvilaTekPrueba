@@ -1,8 +1,8 @@
 import React from 'react';
 import Banner from '../Utils/Banner';
-import Images from './ImageType';
+import { Images } from './ImageType';
 
-type Props = { images: [] };
+type Props = { images: Images[] };
 
 function MiddleBanner({ images }: Props) {
   return (

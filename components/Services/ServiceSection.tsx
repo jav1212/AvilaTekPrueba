@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 
 type Props = {
   height: string;
-  components: [];
-  identifiers: [];
+  components: ReactElement[];
+  identifiers: ReactElement[];
 };
 
 function ServiceSection({ height, components, identifiers }: Props) {

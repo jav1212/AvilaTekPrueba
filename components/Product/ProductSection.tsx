@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { ReactElement } from 'react';
 
 type Props = {
   height: string;
-  components: [];
-  identifiers: [];
+  components: ReactElement[];
+  identifiers: ReactElement[];
 };
 
 function ProductSection({ height, components, identifiers }: Props) {

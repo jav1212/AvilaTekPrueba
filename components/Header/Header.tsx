@@ -1,6 +1,6 @@
-import Carousel from '../Carousel/Carousel';
 import Navbar from '../Navbar/Navbar';
 import SearchBar from '../SearchBar/SearchBar';
+import { ICONS_HEADER } from './IconsData';
 import Location from './Location';
 import SocialMedia from './SocialMedia';
 
@@ -12,14 +12,7 @@ function Header() {
         style={{ height: '26px' }}
       >
         <Location />
-        <SocialMedia
-          template="mr-4 ml-4"
-          data={[
-            { src: '/instagram 1.png', height: 13, width: 13 },
-            { src: '/twitter 1.png', height: 13, width: 16 },
-            { src: '/facebook 1.png', height: 13, width: 7 },
-          ]}
-        />
+        <SocialMedia template="mr-4 ml-4" data={ICONS_HEADER} />
       </div>
       <SearchBar />
       <Navbar />

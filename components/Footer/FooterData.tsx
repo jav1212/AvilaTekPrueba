@@ -1,3 +1,4 @@
+import { ICONS_FOOTER } from '../Header/IconsData';
 import SocialMedia from '../Header/SocialMedia';
 
 const aboutUs = {
@@ -44,14 +45,7 @@ const customerSupport = {
     'soporte@maxipet.com',
     'Lunes a Viernes',
     '9:00 a.m. - 5:00 p.m.',
-    <SocialMedia
-      template=""
-      data={[
-        { src: '/instagram 1 black.png', height: 13, width: 13 },
-        { src: '/twitter 1 black.png', height: 13, width: 16 },
-        { src: '/facebook 1 black.png', height: 13, width: 7 },
-      ]}
-    />,
+    <SocialMedia template="" data={ICONS_FOOTER} />,
   ],
 };
 

@@ -1,6 +1,6 @@
 export type Product = {
   name: string;
-  rating: [];
+  rating: string[];
   price: number;
   imageSrc: string;
 };
@@ -8,5 +8,5 @@ export type Product = {
 export type ProductSection = {
   subtitle: string;
   title: string;
-  products: [];
+  products: Product[];
 };

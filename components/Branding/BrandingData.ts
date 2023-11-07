@@ -1,4 +1,3 @@
-import BrandingSection from './BrandingSection';
 import { Branding, brandingSection } from './BrandingType';
 
 const uniqueBrand: Branding = {
@@ -8,11 +7,7 @@ const uniqueBrand: Branding = {
 const branding: brandingSection = {
   subtitle: 'Lorem ipsum dolor sit amet.',
   title: 'TRABAJAMOS CON LAS MEJORES MARCAS',
-  brands: [],
+  brands: [uniqueBrand],
 };
-
-for (let i = 0; i < 4; i++) {
-  branding.brands.push(uniqueBrand);
-}
 
 export const BRANDING_DATA = branding;

@@ -7,5 +7,5 @@ export type Service = {
 export type ServiceSections = {
   title: string;
   subtitle: string;
-  services: [];
+  services: Service[];
 };

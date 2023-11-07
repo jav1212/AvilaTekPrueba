@@ -1,6 +1,6 @@
-import Image from './ImageType';
+import { Images } from './ImageType';
 
-const bannerData1 = [
+const bannerData1: Images[] = [
   {
     src: '/shutterstock_1082072867-2-768x512 1.png',
     width: 580,
@@ -13,7 +13,7 @@ const bannerData1 = [
   },
 ];
 
-const bannerData2 = [
+const bannerData2: Images[] = [
   {
     src: '/Ad2.png',
     width: 1160,
