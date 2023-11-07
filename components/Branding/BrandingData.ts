@@ -7,7 +7,7 @@ const uniqueBrand: Branding = {
 const branding: brandingSection = {
   subtitle: 'Lorem ipsum dolor sit amet.',
   title: 'TRABAJAMOS CON LAS MEJORES MARCAS',
-  brands: [uniqueBrand],
+  brands: [uniqueBrand, uniqueBrand, uniqueBrand, uniqueBrand, uniqueBrand],
 };
 
 export const BRANDING_DATA = branding;
