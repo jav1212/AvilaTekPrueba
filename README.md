@@ -1,5 +1,5 @@
 # Vercel Deploy
-[https://tek-2hy83eyqs-jav1212s-projects.vercel.app/](https://tek-2hy83eyqs-jav1212s-projects.vercel.app/)
+[[https://tek-2hy83eyqs-jav1212s-projects.vercel.app/](https://tek-2hy83eyqs-jav1212s-projects.vercel.app/)](https://tek-jav1212-jav1212s-projects.vercel.app/?_vercel_share=Jm2GIMjNBSgw746hMjZrs7TL3wLMBS4F)
 
 # Avila Tek Next.js Template!
 
